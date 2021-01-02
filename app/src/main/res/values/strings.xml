@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ImplicitHomeWorkThree</string>
+    <string name="defaultText">http:www.dbu.com</string>
+    <string name="textsdeafoult1">google.com</string>
+    <string name="textsdeafoult2">share_Text</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xsi:schemaLocation="http://schemas.android.com/tools "
+  >
+
+    <EditText
+        android:id="@+id/website_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/defaultText" />
+
+    <Button
+        android:id="@+id/open_website_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:onClick="Open_WebSite"
+        android:text="webSite Search" />
+
+    <EditText
+        android:id="@+id/location_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/textsdeafoult1" />
+
+    <Button
+        android:id="@+id/open_location_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:onClick="open_Location"
+        android:text="Open_Location" />
+
+    <EditText
+        android:id="@+id/share_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edit_txt" />
+
+    <Button
+        android:id="@+id/share_text_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:onClick="share_Text"
+        android:text="shareText" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:text="viewImage" />
+
+    />
+
+    <Button
+        android:id="@+id/imbtn"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="104dp"
+        android:onClick="capture"
+        android:text="TakeCapture"
+        app:backgroundTint="#00796B" />
+
+
+</LinearLayout>
