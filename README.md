@@ -6,6 +6,6 @@ Betemaryam Tadesse  1145
 
 
 Answers
-1.D 
-2.D 
-3.C 
+1.D <br>
+2.D <br>
+3.C <br>
